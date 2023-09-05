@@ -10,6 +10,7 @@ import { Section } from '../styles/GlobalComponents';
 const Home = () => {
   return (
     <Layout>
+    {/* <> */}
       <Section grid>
         <Hero />
         <BgAnimation />
@@ -18,6 +19,7 @@ const Home = () => {
       <Technologies />
       <Timeline />
       {/* <Acomplishments /> */}
+      {/* </> */}
     </Layout>
   );
 };
